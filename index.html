@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stack Hack</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <script src="js/jquery.min.js"></script>    
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div id="page">
+
+        <div id ="nav" class="nav navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand text-white" href="#">Stack Hack</a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item pr-5">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item pr-5">
+                        <a class="nav-link text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item pr-5">
+                        <a class="nav-link text-white" href="#">Contact Us</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="left">
+                <div id="img"></div>
+            </div>
+            <div id="right">
+                <div id="form_cont">
+                    <div id="log_head">LOG IN</div>
+                    
+                    <div class="input-container">
+                        <i class="fa fa-envelope icon"></i>
+                        <input id="email" class="input-field" type="text" placeholder="Email or Mobile Number" name="email">
+                        <div class="status" id="status_email"></div>
+                        <div id="error_email" class="error small">*Email or mobile no is not registered</div>
+                    </div>
+                    
+                    <div class="input-container">
+                        <i class="fa fa-key icon"></i>
+                        <input id="password" class="input-field" type="password" placeholder="Password" name="psw">
+                        <div class="status" id="status_pass"></div>
+                        <div id="error_password" class="error small">*Wrong password</div>
+                    </div>
+                    
+                    <button id ="submit_btn" type="submit" class="btn"><!--i class="fas fa-circle-notch" style="font-size:30px"></i-->Log In</button>
+
+                    <div id="forgot">Forgot Password</div>
+                    <div id="notmem">Not a member? <span id="signup">Sign Up</span></div>
+                </div>
+                  
+            </div>
+        </div>
+
+        <div id="footer" class="nav navbar navbar-expand-lg navbar-dark">
+            
+            <a class="navbar-brand text-white" href="#">LOGO</a>
+            <div id="mob_foot">
+                <div id="top_foot">
+                    <a>Privacy Policy</a>
+                    <a>Terms & Conditions</a>
+                    <a>FAQ</a>
+                    <a>About Us</a>
+                </div>
+                <div id="bot_foot">
+                    <input class="input_sub" type="text" placeholder="your@email.com"/>
+                    <button  type="text" class="text-white btn_sub" >SUBSCRIBE</button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item pr-5">
+                        <a class="nav-link" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item pr-5">
+                        <a class="nav-link" href="#">Terms & Conditions</a>
+                    </li>
+                    <li class="nav-item pr-5">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item pr-5">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto mr-5">
+                    <li class="nav-item pr-5">
+                        <input class="input_sub" type="text" placeholder="your@email.com"/>
+                    </li>
+                    <li class="nav-item">
+                        <button  type="text" class="text-white btn_sub" >SUBSCRIBE</button>
+                    </li>
+                </ul>
+            </div>
+
+    </div>
+</body>
+</html>
